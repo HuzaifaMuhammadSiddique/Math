@@ -1,0 +1,8 @@
+  def permutation(n, r):
+    if n >= r and n >= 1 and r >= 1:
+      result = factorial(n) / factorial(n - r)
+      return int(result)
+    else:
+      print("Error! First value(n) must be equal to or less than the second value(r)!")
+      
+permutation()

@@ -1,0 +1,4 @@
+def quadratic_equation(a, b, c):
+    x1 = (-b + (b ** 2 + (-4 * a * c)) ** 0.5) / (2 * a)
+    x2 = (-b - (b ** 2 + (-4 * a * c)) ** 0.5) / (2 * a)
+    return "X1 = " + str(x1) +  " and " + "X2 = " + str(x2)
